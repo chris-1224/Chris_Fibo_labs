@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    background-color: lightseagreen;
+    background-color: rgb(62, 125, 176);
 }
  .container{
-    height: 90%;
+    height: 110%;
     width: 90%;
     margin-left: 80px;
-    border-radius: 20px;
-    margin-top: 30px;
+    border-radius: 5ch;
+    margin-top: 65px;
+    margin-bottom: 65px;
     background-color: rgb(2, 13, 28);
+    padding-top: 30px;
+    padding-left: 50px;
 }
 .nav{
     display: flex;
@@ -24,6 +27,7 @@ body{
     font-size: 50px;
     color: white;
     padding-left: 30px;
+
 }
 .nav-middle ul{
     display: flex;
@@ -34,7 +38,9 @@ body{
 }
 .nav-middle ul li a{
     text-decoration: none;
-    color: rgb(219, 216, 216);
+    color: rgb(246, 246, 246);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 .nav-right ul{
     display: flex;
@@ -47,7 +53,7 @@ body{
 }
 .nav-right ul li a{
     text-decoration: none;
-    color: rgb(219, 216, 216);
+    color: rgb(252, 251, 251);
 }
 .content{
     display: flex;
@@ -55,56 +61,60 @@ body{
     justify-content: center;
 }
 .content .image{
-    width: 65%;
-    margin-top: 70px;
-    margin-left: 70px;
+    width: 48%;
+    margin-top: 80px;
+    margin-left: 80px;
 }
 .content .image img {
     width: 600px;
     margin-left: 40px;
 }
 .content .text{
-    padding-right: 40px;
-    width: 30%;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 48%;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .content .text h2{
     font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
 .content .text p{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     color: gainsboro;
     margin-bottom: 40px;
 }
 .btn button{
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin-right: 20px;
     border-radius: 20px;
 }
 .btn .red{
     background-color: rgb(207, 87, 87);
+    color: white;
 }
 .btn .blue{
-    background-color: rgb(110 110 224);
+    background-color: rgb(44, 44, 189);
+    color: white;
 }
-.footer{
-    width: 90%;
-    margin: auto;
-}
-.footer ul{
+.footer ul {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    width: 90%;
+    margin: auto;
+    align-items: center;  
 }
 .footer ul li{
-    padding-bottom: 20px;
-    margin-right: 30px;
+    padding: 15px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.683);
     list-style: none;
-    color: white;
-    font-size: 18px;
 }
 .fa-brands{
-    margin-right: 10px;
+    margin-right: 20px;
 } 
